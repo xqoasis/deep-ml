@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**2** solved · 2 problems · 0 labs · 0 math
+**3** solved · 3 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -13,6 +13,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | | Difficulty | Solved | |
 | --- | --- | --- | --- |
 | [Backpropagation Gradients for a Dense Layer](https://www.deep-ml.com/problems/1076) | medium | 2026-08-16 | [solution](problems/1076-backpropagation-gradients-for-a-dense-layer) |
+| [Building a Virtual Memory System for KV Cache](https://www.deep-ml.com/problems/493) | medium | 2026-11-21 | [solution](problems/0493-building-a-virtual-memory-system-for-kv-cache) |
 | [Manual Backprop Through Cross-Entropy Intermediates](https://www.deep-ml.com/problems/997) | hard | 2026-08-17 | [solution](problems/0997-manual-backprop-through-cross-entropy-intermediates) |
 
 ---
