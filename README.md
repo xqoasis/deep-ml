@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**5** solved · 5 problems · 0 labs · 0 math
+**6** solved · 6 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -15,6 +15,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Backpropagation Gradients for a Dense Layer](https://www.deep-ml.com/problems/1076) | medium | 2026-08-16 | [solution](problems/1076-backpropagation-gradients-for-a-dense-layer) |
 | [Building a Virtual Memory System for KV Cache](https://www.deep-ml.com/problems/493) | medium | 2026-11-21 | [solution](problems/0493-building-a-virtual-memory-system-for-kv-cache) |
 | [Online Softmax Attention as Coupled Accumulators](https://www.deep-ml.com/problems/1524) | medium | 2026-11-22 | [solution](problems/1524-online-softmax-attention-as-coupled-accumulators) |
+| [Flash Attention v1 - Forward Pass](https://www.deep-ml.com/problems/208) | hard | 2026-11-22 | [solution](problems/0208-flash-attention-v1-forward-pass) |
 | [Implementing PagedAttention: Block-wise Attention Computation](https://www.deep-ml.com/problems/492) | hard | 2026-11-21 | [solution](problems/0492-implementing-pagedattention-block-wise-attention-computation) |
 | [Manual Backprop Through Cross-Entropy Intermediates](https://www.deep-ml.com/problems/997) | hard | 2026-08-17 | [solution](problems/0997-manual-backprop-through-cross-entropy-intermediates) |
 
