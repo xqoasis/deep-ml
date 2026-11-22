@@ -24,6 +24,7 @@ def flash_attention(Q, K, V):
         # init m and l for each query
         m = -math.inf
         l = 0.0
+        # 单个 query 额外空间是 O(d)（完全跟 L 无关）!!!!!!
         o = np.zeros(head_dim) # o 多乘一个 v 向量
 
         for ctx in range(context_len):
@@ -34,6 +35,15 @@ def flash_attention(Q, K, V):
             m, l, o = attend_step(m, l, o, s, v)
         res[i] = o/l
     return res.astype(np.float32)
+
+
+    # 如果cuda 编程中 k and V read multiple lines per call
+# above will become 向量
+
+
+#     第 1 处是分数 s：从 1 个标量变成块数组 s_block [B_c]，所以找最高分要加一步块内求 max： m_new = max(m, np.max(s_block))（算完 m_new 还是 1 个标量）
+# 第 2 处是票数 p：从 1 个标量变成块数组 p_block = np.exp(s_block - m_new)（[B_c]），所以进总票箱 l 时要先把块内求和： l_new = l * alpha + np.sum(p_block)（算完 l_new 还是 1 个标量）
+# 至于 v，原本就是长度 [d] 的向量，分块后变成矩阵 V_block [B_c, d]，对应写成 p_block @ V_block（算完 o_new 还是长度 [d]）。
 
 
 def reference_attention(Q, K, V):

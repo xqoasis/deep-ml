@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:51:29.430Z",
+  "generated_at": "2026-11-22T00:58:51.558Z",
   "items": {
     "problem:1076": {
       "kind": "problem",
@@ -62,9 +62,9 @@
       "url": "https://www.deep-ml.com/problems/1524",
       "path": "problems/1524-online-softmax-attention-as-coupled-accumulators",
       "first_solved_at": "2026-11-22T00:51:28.751Z",
-      "last_pushed_at": "2026-11-22T00:51:28.751Z",
+      "last_pushed_at": "2026-11-22T00:58:50.706Z",
       "language": "python",
-      "lines": 51
+      "lines": 61
     }
   }
 }
