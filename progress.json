@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:43:46.848Z",
+  "generated_at": "2026-11-27T09:37:53.136Z",
   "items": {
     "problem:1076": {
       "kind": "problem",
@@ -49,9 +49,9 @@
       "url": "https://www.deep-ml.com/problems/492",
       "path": "problems/0492-implementing-pagedattention-block-wise-attention-computation",
       "first_solved_at": "2026-11-21T23:09:31.192Z",
-      "last_pushed_at": "2026-11-21T23:09:31.192Z",
+      "last_pushed_at": "2026-11-27T09:37:52.285Z",
       "language": "python",
-      "lines": 77
+      "lines": 98
     },
     "problem:1524": {
       "kind": "problem",
